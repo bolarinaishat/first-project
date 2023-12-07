@@ -1,3 +1,15 @@
 body {
-    background-color: bisque;
+    background-color: hsl(30, 38%, 92%);
+    width:100vw;
+    height:100vh;
+    
+}
+
+main {
+    display:flex;
+    width: 45rem;
+    height: 30rem;
+    background-color: black;
+    margin: 5rem 10rem;
+    padding: 5rem;
 }
