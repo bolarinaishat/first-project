@@ -2,14 +2,39 @@ body {
     background-color: hsl(30, 38%, 92%);
     width:100vw;
     height:100vh;
+    font-family:monospace; }
+
+ *{
+    box-sizing: border-box;
+ }
+main {
     
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 50rem;
+    background-color: #f3ebe4;
+    margin: auto;
+}
+    
+.section-one {
+    width: 20rem;
+    height: 30rem;
+    
+
+}
+.section-one img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
 }
 
-main {
-    display:flex;
-    width: 45rem;
-    height: 30rem;
-    background-color: black;
-    margin: 5rem 10rem;
-    padding: 5rem;
+.section-two {
+width: 20rem;
+height: 30rem;
+padding: 2rem;
+background-color: white;
+border-radius: 0 5px 5px 0;
 }
